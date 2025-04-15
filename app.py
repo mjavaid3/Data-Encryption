@@ -55,7 +55,7 @@ def unlock_content(locked_content, unlock_key):
 user_database = get_user_data()
 
 # === Application Navigation ===
-st.title("🛡️ Protected Data Vault System")
+st.title("🛡️ Protected Data Encryption System")
 app_pages = ["Main Page", "Create Account", "User Login", "Save Information", "Access Information"]
 selected_page = st.sidebar.selectbox("Menu", app_pages)
 
